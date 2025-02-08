@@ -136,3 +136,70 @@
 // }
 // console.log(fact);
 
+//27
+// var hold = 1;
+// for(var i=1; i<4; i++){
+//   var str="";
+//   for(var j=1; j<4; j++){
+//     str+=`${hold}`;
+//     hold++;
+//   }
+//   console.log(str);
+// }
+
+//28
+// var arr= [1,2,3,4,5,6,7,8];
+// for(var i =0; i<Math.floor(arr.length / 2); i++){
+//   var temp = arr[i];
+//   arr[i] = arr[arr.length -1 -i];
+//   arr[arr.length-i-1] = temp;
+// }
+// console.log(arr);
+
+//29
+// let num = 1;
+// while (num < 101) {
+//   if (num % 5 === 0) console.log(num);
+//   num++;
+// }
+
+//30
+// var obj = {
+//   name: "saurabh",
+//   email: "soljark@gmail.com",
+//   age: 25,
+// };
+
+// for (let key in obj) {
+//   console.log(key);
+// }
+
+//31
+// var a = ["a", "b", "c", "d", "e", "f", "j"];
+
+// a.forEach(function (value) {
+//   console.log(value);
+// });
+
+//32
+// var arr = [1,2,3,4,5];
+// console.log(arr[1]);
+
+//33
+// var arr = [1,2,3,4,5];
+// arr.unshift(0);
+// arr.unshift(-1)
+// console.log(arr);
+
+//34
+// var arr= [1,2,3,4,5]
+// arr.pop();
+// console.log(arr);
+
+//35
+// var arr= [1,2,3,4,5]
+// console.log(arr.slice(0,3));
+
+
+
+
