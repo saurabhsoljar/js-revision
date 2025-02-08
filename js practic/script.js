@@ -200,6 +200,38 @@
 // var arr= [1,2,3,4,5]
 // console.log(arr.slice(0,3));
 
+//36
+// var arr= [1,2,3,4,5]
+// console.log(arr.indexOf(5));
 
+//37
+// var arr= [1,2,3,4,5]
+// console.log(arr.includes(1));
 
+//38
+// var arr1= [1,2,3,4,5]
+// var arr2 =[6,7,8,9,10]
+// console.log(arr1.concat(arr2));
 
+//39
+// var arr= [11,24,56,5,6];
+// for(var j=0; j<arr.length-1; j++){
+//   for(var i=0; i<arr.length-j -1; i++){
+//     if(arr[i]>arr[i+1]){
+//       var temp = arr[i];
+//       arr[i] = arr[i+1];
+//       arr[i +1] = temp;
+//     }
+//   }
+// }
+// console.log(arr);
+
+//40
+// var arr = [11, 24, 56, 5, 6];
+// var arr2 = [];
+
+// arr.forEach(function (value) {
+//   arr2.push(value);
+// });
+
+// console.log(arr2);
