@@ -235,3 +235,93 @@
 // });
 
 // console.log(arr2);
+
+//function
+
+//41
+// function evod(value){
+//   if(value%2===0) return "even";
+//   else return "odd";
+// }
+// console.log(evod(10));
+
+// function evod(value){
+//   if(value%2===0){
+//     return "even"
+//   }else{
+//     return "odd"
+//   }
+// }
+// console.log(evod(12));
+
+//42
+// function area (r){
+//   return Math.PI * r * r;
+// }
+// console.log(area(10));
+
+//43
+// function sumofarr(...arr) {
+//   var sum = 0;
+//   arr.forEach(function (v) {
+//     sum = sum + v;
+//   })
+//   return sum;
+// }
+// console.log(sumofarr(2, 3, 4, 5, 6, 7, 8, 9,10));
+
+//44
+// function checker (str, char){
+//   return str.toLowerCase().startsWith(char.toLowerCase());
+// }
+// console.log(checker("saurabh", "s"));
+
+//45
+// function max(a,b){
+//   if(a > b) return a;
+//   else if (a < b) return b;
+//   else return "equal";
+// }
+
+// console.log(max(9,9));
+
+//46
+// function getFact(num){
+//   let fct = 1;
+//   for (var i=1; i<=num; i++){
+//     fct = fct * i;
+//   }
+//   return fct;
+// }
+// console.log( getFact(6));
+
+//47
+// function abcd(value) {
+//   return value.split("").reverse().join("");
+// }
+// console.log(abcd("add"));
+
+//48
+// function abcd(arr) {
+//   var max = 0;
+//   for (var i = 1; i < arr.length; i++) {
+//     if (arr[i] > arr[max]) {
+//     }
+//     return arr[max];
+//   }
+// }
+// console.log(abcd([1, 2, 13, 4, 5, 6, 7, 8]));
+
+//49
+// function kebab(str){
+//   return str.split ('').join('-');
+// }
+// console.log(kebab("hey my nam is saurabh"));
+
+//50
+function sk() {
+  console.log("hello world");
+}
+
+sk();
+
